@@ -1,0 +1,21 @@
+{
+  "name": "workhub-booking-agent",
+  "version": "1.0.0",
+  "description": "workhub会議室予約自動化システム - Slackからの自然言語入力で会議室予約を自動化",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@slack/bolt": "^3.17.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
